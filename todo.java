@@ -10,6 +10,7 @@ public class todo {
         
         System.out.println("how many tasks would you like to complete today? ");
         int choice = scan.nextInt();
+        scan.nextLine();
         
         String[] array = new String[choice];
         int num = 0;
