@@ -1,4 +1,4 @@
-
+//to do list code made in java with the added concept of arrays
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class todo {
         
         String[] array = new String[choice];
         int num = 0;
+        int choice2 = choice;
         
         while(choice!=0)
         {
@@ -28,9 +29,10 @@ public class todo {
 
         System.out.println("");
         System.out.println("So these are you're daily tasks");
+        System.out.println("");
         int n = 0;
 
-        while(n!=choice+1)
+        while(n!=choice2+1)
         {
             System.out.println(n+": "+array[n++]);
             System.out.println("");
