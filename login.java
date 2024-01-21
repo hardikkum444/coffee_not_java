@@ -55,5 +55,6 @@ public class login {
         } else {
             System.out.println("Invalid choice. Please choose a valid option.");
         }
+        scan.close();
     }
 }

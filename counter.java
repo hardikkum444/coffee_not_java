@@ -35,7 +35,7 @@ public class counter {
 
     
     //int[] arr = new int[3];
-
+    scan.close();
 
     }
 

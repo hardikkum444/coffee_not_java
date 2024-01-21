@@ -55,7 +55,7 @@ public class javaCalc {
         }
 
     }
-
+    scan.close();
 
     }
     

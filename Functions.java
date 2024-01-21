@@ -25,6 +25,10 @@ public class Functions {
 
 
         System.out.println("Your age after the next "+b+"years into the future will be --> "+Finding(a,b));
+        scan.close();
+    
     }
+
+    
     
 }   
