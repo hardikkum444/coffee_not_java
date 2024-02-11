@@ -1,5 +1,6 @@
 //explaining the usage of all the different types of constructors
 
+
 class iden{
 
 	public int age;
@@ -33,8 +34,10 @@ class iden{
 		}
 	}
 
+	//creating a separate method (function for accessing the private const)
 	public static iden inst(boolean flag){
-		return new iden(flag);
+		
+		return new iden(flag); //diff return type format
 	}
 
 //------------------------------------------------------------------------------
