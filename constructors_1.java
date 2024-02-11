@@ -9,6 +9,11 @@ class Person{
 	public Person(){
 
 	}
+
+	public void printer(){
+	System.out.println("So the name is: "+name);
+	System.out.println("and the age is: "+age);
+}
 }
 
 class College{
@@ -23,6 +28,7 @@ class College{
 }
 
 
+
 public class constructors_1{
 
 	public static void main(String[] args){
@@ -31,8 +37,10 @@ public class constructors_1{
 		har.age = 18;
 		har.name = "Hardik Kumawat";
 
-		System.out.println("So the name is: "+har.name);
-		System.out.println("and the age is: "+har.age);
+		// System.out.println("So the name is: "+har.name);
+		// System.out.println("and the age is: "+har.age);
+
+		har.printer();
 
 		College cse = new College("LPU",2);
 
