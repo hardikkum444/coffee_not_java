@@ -24,6 +24,8 @@ import java.util.*;
 // }
 
 
+//LINEAR SEARCH PROBLEM
+
 //take an array input from the user and give them the index of the 
 //number they are looking for **********
 
