@@ -34,6 +34,9 @@ public class ArraySort{
 				arr[n3] = n2;
 
 			}
+			if(n2>arr[n1-1]){
+				arr[n1] = n2;
+			}
 		}
 		System.out.println();
 		System.out.println("here is your new array");
