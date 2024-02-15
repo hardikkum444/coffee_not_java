@@ -1,6 +1,7 @@
 //lets try armStrong number
+//but this only works for a three digit number
 import java.util.*;
-public class main{
+public class armstrong{
     
     public static void main(String[] args){
         
@@ -23,7 +24,7 @@ public class main{
        // int nn = n1-((num%100));
         int n3 = num/100; //3
         
-        if(Math.pow(n3,1)+Math.pow(n2,2)+Math.pow(n1,3)==num){
+        if(Math.pow(n3,3)+Math.pow(n2,3)+Math.pow(n1,3)==num){
             System.out.println("Armstrong number");
         }else{
             System.out.println("Not an Armstrong number");
