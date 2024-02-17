@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class main{
+public class GpaSwitch{
     
     public static void gpa(int num){
             
