@@ -42,10 +42,14 @@ public class polymorphism1{
 		bike Bike = new bike();
 		boat Boat = new boat();
 
-		//polymorphism (all are of vehicle data type)
-		vehicle[] arr = {Car,Bike,Boat};
+		//polymorphism (all are of vehicle data type
 
-		for(vehicle x : arr) {
+		//all classes are objexts of the object class so -->)
+		// vehicle[] arr = {Car,Bike,Boat};
+		// or 
+		object arr = {Bike, Boat, Car};
+
+		for(object x : arr) {
 
 			x.go();
 		}
