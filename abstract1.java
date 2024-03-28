@@ -4,6 +4,9 @@
 
 // but when it comes to abstract classes, you cant change the config of the function that you have set in your abstract class i.e you cannot change the parameters or return type from what you have declared in the abstract class
 
+// ABSTRACT METHOD:
+// a method which is declared but not implemented
+
 public class abstract1 {
     
     public static void main(String[] args){
