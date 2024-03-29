@@ -2,7 +2,7 @@
 // method oerriding occurs when a subclass provides a specifinc implementation for a method declared in super class
 
 
-//example of method overriding where we can change both the parameters and also the return type
+//In method overriding you cannot change the return type and the parameters, that wont override the function it will only create another one (also use @Override)
 
 public class main {
     public static void main(String[] args){
@@ -12,7 +12,8 @@ public class main {
         lambo newlambo = new lambo();
         
         newcar.printing();
-        System.out.println(newlambo.printing(3));
+        newlambo.printing();
+        
     }
 }
 
@@ -24,9 +25,11 @@ class car {
 }
 
 class lambo extends car {
-    public int printing(int num){
-        System.out.println("this is a lambo, grrrr "+num);
-        return num;
+
+    public void printing(){
+        
+        System.out.println("this is a lambo, grrrr ");
+        
     }
 }
 
