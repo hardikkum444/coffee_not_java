@@ -24,6 +24,7 @@ public class anonymousClass{
             
                 System.out.println("18");
             }
+
         };
         obj.getName();
         obj.getAge();
