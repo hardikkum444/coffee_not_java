@@ -1,3 +1,7 @@
+// implemeting default methods in java, the usage of default methods is only done in interfaces since interfaces are 100% abstract
+
+// defaulting a method allows for defining and implementing a method in an interface which can be called
+
 import java.util.*;
 
 interface apply {
@@ -16,6 +20,7 @@ public class default1 implements apply {
     
         default1 def = new default1();
         def.display();
+        def.show();
         
     
         
