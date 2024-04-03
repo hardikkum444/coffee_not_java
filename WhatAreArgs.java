@@ -2,6 +2,7 @@
 //Whilst running this java file 
 
 //run it like --> java WhatAreArgs arg1 arg2 arg3
+//using args to enter things as input before compilation 
 
 public class WhatAreArgs{
 
