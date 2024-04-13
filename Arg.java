@@ -1,5 +1,5 @@
 //revising args in the form of multiplying
-
+//nothing to commit
 public class Arg{
 
 	public static void main (String[] args){
