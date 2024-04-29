@@ -3,13 +3,14 @@ import java.util.*;
 public class wildCard2{
 
     public static <T extends Number> Number sumList(List<T>list){
-        double sum = 0;
+
+        Double sum = 0.0;
         for(Number num : list){
             sum+=num.doubleValue();
         }
 
         if(list.get(0) instanceof Integer){
-            return (int) sum;
+            return sum.intValue();
         }else if(list.get(0) instanceof Double){
             return sum;
         }else{
