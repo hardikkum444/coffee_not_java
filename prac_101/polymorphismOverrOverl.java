@@ -3,6 +3,10 @@
 
 // here is an exmaple of showing all these things
 
+// another important point to consider is that in method overriding you cannot change parameters
+
+// however in method overloading you can change the parameters
+
 class Animal {
     
     public void makeSound(){
